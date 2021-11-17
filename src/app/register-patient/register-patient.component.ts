@@ -16,4 +16,18 @@ export class RegisterPatientComponent implements OnInit {
   ngOnInit(): void {
   }
 
+
+  validate(){
+    return !!this.user.password && 
+           !!this.user.confirmPassword &&
+           this.user.password === this.user.confirmPassword &&
+           !!this.user.firstName &&
+           !!this.user.lastName &&
+           !!this.user.username &&
+           !!this.user.zip;
+  }
+
+  doRegister(){
+    
+  }
 }
