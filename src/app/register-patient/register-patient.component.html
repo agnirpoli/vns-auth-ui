@@ -1,0 +1,88 @@
+<div class="text-center mt-5">
+    <h1>Patient Registration</h1>
+    <p class="lead">Please fill following details</p>
+    <br><br>
+    <div class="row pt-2">
+        <div class="offset-2 col-3 text-end">
+            <label class="lead">First Name</label>
+        </div>
+        <div class="col-4">
+            <input type="text" class="form-control" [(ngModel)]="user.firstName">
+        </div>
+    </div>
+    <div class="row pt-2">
+        <div class="offset-2 col-3 text-end">
+            <label class="lead">First Name</label>
+        </div>
+        <div class="col-4">
+            <input type="text" class="form-control"  [(ngModel)]="user.lastName">
+        </div>
+    </div>
+    <div class="row pt-2">
+        <div class="offset-2 col-3 text-end">
+            <label class="lead">Date of Birth</label>
+        </div>
+        <div class="col-4">
+            <input type="text" class="form-control" [(ngModel)]="user.dob">
+        </div>
+    </div>
+    <div class="row pt-2">
+        <div class="offset-2 col-3 text-end">
+            <label class="lead">Gender</label>
+        </div>
+        <div class="col-4">
+            <input type="text" class="form-control"  [(ngModel)]="user.gender">
+        </div>
+    </div>
+    <div class="row pt-2">
+        <div class="offset-2 col-3 text-end">
+            <label class="lead">Email</label>
+        </div>
+        <div class="col-4">
+            <input type="email" class="form-control" [(ngModel)]="user.email">
+        </div>
+    </div>
+    <div class="row pt-2">
+        <div class="offset-2 col-3 text-end">
+            <label class="lead">Phone</label>
+        </div>
+        <div class="col-4">
+            <input type="text" class="form-control" [(ngModel)]="user.phone">
+        </div>
+    </div>
+    <div class="row pt-2">
+        <div class="offset-2 col-3 text-end">
+            <label class="lead">Username</label>
+        </div>
+        <div class="col-4">
+            <input type="text" class="form-control" [(ngModel)]="user.username">
+        </div>
+    </div>
+    <div class="row pt-2">
+        <div class="offset-2 col-3 text-end">
+            <label class="lead">Password</label>
+        </div>
+        <div class="col-4">
+            <input type="text" class="form-control" [(ngModel)]="user.password">
+        </div>
+    </div>
+
+    <div class="row pt-2">
+        <div class="offset-2 col-3 text-end">
+            <label class="lead">Confirm Password</label>
+        </div>
+        <div class="col-4">
+            <input type="text" class="form-control" [(ngModel)]="user.confirmPassword">
+        </div>
+    </div>
+
+    <div class="row pt-2">
+        <div class="offset-2 col-3 text-end">
+            
+        </div>
+        <div class="col-4">
+            <input type="button" class="btn btn-warning btn-md" value="Reset">
+            <input type="button" class="btn btn-success btn-md" value="Submit">
+        </div>
+    </div>
+</div>
